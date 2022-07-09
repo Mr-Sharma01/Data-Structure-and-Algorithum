@@ -37,7 +37,7 @@ int main(){
     root->right->left = new Node (6) ;
     root->right->right = new Node (7) ;
   
-    cout<<lca(root,3,7)->data;
+    cout<<lca(root,4,7)->data;
     
   return 0;
 }
