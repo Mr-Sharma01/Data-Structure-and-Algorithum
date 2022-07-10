@@ -11,6 +11,14 @@ public:
     Node* next;
 };
   
+void printList(Node* n)
+{
+    while (n != NULL) {
+        cout << n->data << " ";
+        n = n->next;
+    }
+}
+
 int main()
 {
     Node* head = NULL;
@@ -29,6 +37,8 @@ int main()
   
     third->data = 3; // assign data to third node
     third->next = NULL;
+  
+    printList(head);
   
     return 0;
 }
