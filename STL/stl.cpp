@@ -36,4 +36,12 @@ void Vector() {
   v1.clear(); //clear() – deletes all the elements from the vector.
   v1.empty(); //empty() – to check if the vector is empty or not.
   v1.size();
-
+  v1.swap(v2);
+  
+  for (auto it = v.begin(); it != v.end(); it++)
+    cout << * it << " ";
+  
+  for( auto it : v) 
+    cout<<it<<" ";
+    
+  
