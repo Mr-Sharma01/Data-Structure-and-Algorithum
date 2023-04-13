@@ -73,7 +73,7 @@ void Vector() {
   dq.back();
   dq.size();
   
-//stack
+//Stack LIFO
   stack<int> s;
   s.push(110);
   s.push(220);
@@ -84,4 +84,15 @@ void Vector() {
   s.empty();
   stack<int> st1,st2;
   st1.swap(st2);
+
+//Ques FIFO
+  queue<int> q
+  q.push(110);
+  q.push(220);
+  q.pop();
+  q.front();
+  q.back();
+  q.emplace(1);
+  q.size();
+  q.empty();
 
