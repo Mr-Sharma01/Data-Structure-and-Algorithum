@@ -49,5 +49,16 @@ void Vector() {
 
   
 //Lists
-  
+  list<int> li;
+  li.push_back(110);
+  li.push_front(220);
+  li.pop_back();
+  li.pop_front();
+  li.front();
+  li.back();
+  li.reverse();
+  li.sort();  //sorts the list in ascending order.
+  li.size();
+  li.empty();
+
   
