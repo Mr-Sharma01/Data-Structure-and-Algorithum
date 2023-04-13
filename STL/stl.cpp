@@ -87,6 +87,8 @@ void Vector() {
 
 //Ques FIFO
   queue<int> q
+  for(int i=1;i<=5;i++)
+    q.push(i);
   q.push(110);
   q.push(220);
   q.pop();
@@ -96,3 +98,21 @@ void Vector() {
   q.size();
   q.empty();
 
+//priority queue        (push,pop- logn ,top- O(n))
+In the case of the max heap, priority queues are a type of container adaptors, specifically designed such that its first element is always the greatest
+of the elements it contains and the rest elements are in decreasing order.
+
+In the case of the min heap, priority queues are a type of container adaptors, specifically designed such that its first element is always the smallest
+of the elements it contains and the rest elements are in increasing order.
+  
+  priority_queue<int> pq;   //The syntax for a max-heap priority queue
+
+  priority_queue<int,vector<int>,greater<int>> pq;  //The syntax for a min-heap priority queue
+
+  pq.push(110);
+  pq.push(220);
+  pq.pop();
+  pq.top();
+  pq.emplace(1);
+  pq.size();
+  pq.empty();
