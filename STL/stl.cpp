@@ -73,3 +73,15 @@ void Vector() {
   dq.back();
   dq.size();
   
+//stack
+  stack<int> s;
+  s.push(110);
+  s.push(220);
+  s.pop();
+  s.top();
+  s.emplace(1);
+  s.size();
+  s.empty();
+  stack<int> st1,st2;
+  st1.swap(st2);
+
