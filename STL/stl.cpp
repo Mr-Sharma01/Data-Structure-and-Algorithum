@@ -45,7 +45,7 @@ void Vector() {
   
   for( auto it : v) 
     cout<<it<<" ";
-    
+}  
 
   
 //Lists
@@ -61,4 +61,15 @@ void Vector() {
   li.size();
   li.empty();
 
+  
+//Deque
+  deque<int> dq;
+  dq.push_back(110);
+  dq.push_back(220);
+  dq.push_front(110);
+  dq.pop_back();
+  dq.pop_front();
+  dq.front();
+  dq.back();
+  dq.size();
   
