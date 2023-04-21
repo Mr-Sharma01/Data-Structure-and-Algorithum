@@ -128,3 +128,26 @@ Unique only not sorted
 
 //map
 Unique keys in sorted oder
+
+//mutimap
+muti keys (dublicate keys) in sorted oder
+
+//sotring
+sort(a,a+n);
+sort(v.begin(), v.end());
+sort(a,a+n, greater<int>);   //for decending oder
+sort(a,a+n, sortbysec);      //myway
+
+bool sortbysec(const pair<int,int> &a,const pair<int,int> &b) 
+{ 
+    return (a.second < b.second); 
+}
+
+//return no of 1's
+__buitin_popcout(n);
+
+//next_permutation
+vector<int> vec = {1,2,3};
+
+next_permutation(vec.begin(), vec.end());
+
