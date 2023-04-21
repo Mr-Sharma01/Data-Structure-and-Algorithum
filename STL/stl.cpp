@@ -117,3 +117,14 @@ of the elements it contains and the rest elements are in increasing order.
   pq.size();
   pq.empty();
 
+// Set
+Sorted & Uniquie
+
+//MultiSet
+Sorted only not unique
+
+//Unodered Set
+Unique only not sorted
+
+//map
+Unique keys in sorted oder
